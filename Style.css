@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 16px;
+  border: 1px dotted yellow;
+}
+
+header {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, rgb(229, 148, 82), rgb(0, 0, 255));
+}
+
+nav {
+  background-color: red;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1em;
+}
+
+nav ul {
+  margin: 0;
+}
+
+header main {
+  padding-top: 3em;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  letter-spacing: 0.5em;
+  color: rgb(200, 10, 10);
+  text-shadow: 2px 2px black, 0 2px black;
+}
+
+header img {
+  padding: 1em;
+  width: 30%;
+}
+
+.about-me {
+  padding: 3em 0;
+  line-height: 2;
+  background-color: rgb(51, 48, 45);
+  color: white;
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.projects {
+  padding: 3em 0;
+  background-color: rgb(220, 220, 220);
+}
+
+.projects img {
+  width: 30%;
+  padding: 30px 30px 30px 0;
+  border: solid black;
+}
+
+.about-me p {
+  text-align: justify;
+}
